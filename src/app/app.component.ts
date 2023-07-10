@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mychatbot';
+
+  links = [
+    {
+      path:'/home',label:'home',active:'button-active'
+    },
+    {
+      path:'/chat',label:'Chat',active:'button-active'
+    },
+    {
+      path:'/signin',label:'Signin',active:'button-active'
+    }
+  ]
+// links: any;
 }
